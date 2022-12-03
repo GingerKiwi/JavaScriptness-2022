@@ -1,0 +1,3 @@
+# JavaScriptness 2022
+
+This is my first JavaScriptness - 24 days of daily JavaScript Challenges as part of the Scrimba community! I decided to turn the challenges into a website to continue coding in public. As the focus is on the Javascript, I'm starting with a basic dark theme with fun typography. Depending on what projects I have on the go after the 24th, I might spend a week spiffing up the design of the home page.
