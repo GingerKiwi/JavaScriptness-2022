@@ -1,0 +1,120 @@
+:root {
+    /* fonts */
+
+    --font-christmas-mtns: "Mountains of Christmas", cursive;
+    --font-glass-antiqua: "Glass Antiqua", cursive;
+    --font-sans: "Josefin Sans", sans-serif;
+
+    /* typography */
+
+    --font-size-xsmall: 1.2rem;
+    --font-size-small: 1.8rem;
+    --font-size-normal: 2.2rem;
+    --font-size-medium: 2.8rem;
+    --font-size-medium-1: 3.6rem;
+    --font-size-large: 5.5rem;
+    --font-size-huge: 7.5rem;
+
+    --line-height-normal: 1.7;
+    --line-height-small: 1.2;
+
+    /* colours */
+
+    --colour-main01: rgb(3, 45, 2);
+    --colour-main02: rgb(247, 247, 247);
+
+}
+
+/* ------------------- */
+/* Reset               */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+}
+
+/* set up the body */
+body {
+    line-height: 1.5;
+    min-height: 100vh;
+}
+
+/* make images easier to work with */
+img,
+picutre {
+    max-width: 100%;
+    display: block;
+}
+
+/* make form elements easier to work with */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =================
+Typography
+================= */
+
+body {
+    background-color: var(--colour-main01);
+    color: var(--colour-main02);
+    padding: 0 2em;
+}
+
+h1, h2, h3 {
+    font-family: var(--font-christmas-mtns);
+    font-weight: 800;
+}
+
+h1 {
+    font-size: var(--font-size-huge);
+}
+
+a {
+    color: var(--colour-main02);
+    font-family: var(--font-sans);
+}
+
+/* =================
+Layout
+================= */
+
+/* utility classes */
+
+/* navigation */
+
+
+/* @media */
